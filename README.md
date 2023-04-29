@@ -1,16 +1,12 @@
-# quotes_app
+# Quotes For You
 
-A new Flutter project.
+A Material 3 inspired Quotes App. 
+Get quotes and share them instantly.
+Add quotes to favorites to view later.
+Change the app theme, font, gestures or adapt to Material You
 
-## Getting Started
+## Third Party API(s) and dependencies used
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Zenquotes API for the Quotes (https://zenquotes.io/)
+2. share_plus dependency for sharing the quotes (https://pub.dev/packages/share_plus)
+3. provider dependency for state management (https://pub.dev/packages/provider)
