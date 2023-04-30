@@ -78,12 +78,49 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
+  fonts:
+    - family: Atrament
+      fonts:
+        - asset: assets/fonts/Atrament.ttf
+    - family: Cedarville
+      fonts:
+        - asset: assets/fonts/CedarvilleCursive-Regular.ttf
+    - family: Comic Neue
+      fonts:
+        - asset: assets/fonts/ComicNeue-Regular.ttf
+    - family: Dork Diary
+      fonts:
+        - asset: assets/fonts/Dpdorkdiary-P267.ttf
+    - family: Fondamento
+      fonts:
+        - asset: assets/fonts/Fondamento-Regular.ttf
+    - family: Merriweather
+      fonts:
+        - asset: assets/fonts/Merriweather-Regular.ttf
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/NotoSans-Regular.ttf
+    - family: Patrick Hand
+      fonts:
+        - asset: assets/fonts/PatrickHand-Regular.ttf
+    - family: PinyonScript
+      fonts:
+        - asset: assets/fonts/PinyonScript-Regular.ttf
+    - family: Proxima Nova
+      fonts:
+        - asset: assets/fonts/Proxima Nova Font.otf
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway-Regular.ttf
+    - family: Source Sans Pro
+      fonts:
+        - asset: assets/fonts/SourceSansPro-Regular.ttf  
+    - family: Space Mono
+      fonts:
+        - asset: assets/fonts/SpaceMono-Regular.ttf 
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf

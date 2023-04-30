@@ -36,8 +36,9 @@ class _HomePageState extends State<HomePage> {
     }
 
     return Scaffold(
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       appBar: AppBar(
-        title: const Text('Quotes For You'),
+        title: const Text('Quotes For You',),
         centerTitle: true,
         backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
         titleTextStyle: Theme.of(context).appBarTheme.titleTextStyle,
@@ -90,7 +91,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
                 const SizedBox(
-                  height: 30,
+                  height: 24,
                 ),
                 ElevatedButton(
                   onPressed: () {
@@ -120,9 +121,9 @@ class _HomePageState extends State<HomePage> {
       bottomNavigationBar: NavigationBar(
         onDestinationSelected: (int index) {
           //try writing outside setState()
-          setState(() {
+          //setState(() {
             currentIndex = index;
-          });
+          //});
           switch (currentIndex) {
             case 1:
               Navigator.pushNamed(context, '/favorites');

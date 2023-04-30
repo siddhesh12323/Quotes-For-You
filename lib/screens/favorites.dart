@@ -6,12 +6,16 @@ class Favorites extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
         appBar: AppBar(
-          leading: IconButton(
-              onPressed: () {
-                Navigator.of(context).pop();
-              },
-              icon: const Icon(Icons.arrow_back)),
+          leading: Padding(
+            padding: const EdgeInsets.only(top: 14),
+            child: IconButton(
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+                icon: const Icon(Icons.arrow_back, size: 34,)),
+          ),
           backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
           titleTextStyle: Theme.of(context).appBarTheme.titleTextStyle,
         ),
